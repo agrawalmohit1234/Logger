@@ -1,0 +1,19 @@
+{
+  "name": "logger_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "author": "Mohit Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "morgan": "^1.10.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.6.0"
+  }
+}
